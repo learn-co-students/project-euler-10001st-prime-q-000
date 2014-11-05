@@ -8,7 +8,7 @@ describe "#prime_number_for(nth_element)" do
   end
 
   it 'returns 13 when 6 is passed in' do
-    expect(prime_number_for(2)).to eq(3)
+    expect(prime_number_for(6)).to eq(13)
   end
 
   it 'returns 104743 when 10001 is passed in' do
