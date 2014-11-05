@@ -1,7 +1,7 @@
 def is_prime?(number)
-  return false if number == 0 || number == 1
+  return false if number.zero? || number == 1
   integers =* (2..Math.sqrt(number).round)
-  integers.each {|i| return false if number % i == 0}
+  integers.each {|i| return false if (number % i).zero?}
   true
 end
 
