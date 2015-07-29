@@ -1,8 +1,4 @@
----
-tags: euler, problems
-languages: ruby
-resources: 1
----
+
 # Project Euler
 
 ## Problem: 10001st Prime
