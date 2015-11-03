@@ -1,8 +1,4 @@
----
-tags: euler, problems
-languages: ruby
-resources: 1
----
+
 # Project Euler
 
 ## Problem: 10001st Prime
@@ -12,7 +8,7 @@ resources: 1
 ## Instructions
 - Code your procedural solution into the `lib/10001st_prime.rb` file.
 - Code your object-oriented solution into the `lib/oo_10001st_prime.rb` file.
-- Run your `rspec` test suite, and make each RSpec test pass.
+- Run `learn` until you get all of the RSpec tests to pass.
 
 ## Source
 - [Project Euler](https://projecteuler.net/) - [Problem 7](https://projecteuler.net/problem=7)
