@@ -2,7 +2,7 @@
 
 require_relative '10001st_prime'
 
-# WARNING! TAKES AT LEAST 1.4 SECS TO INITALIZE PRIME each time
+# WARNING! TAKES AT LEAST 1.4 SECS TO INITALIZE PRIME EACH TIME
 #   - Program calculates up to the millionth prime number and takes a while to run
 class Prime
   attr_accessor :number
