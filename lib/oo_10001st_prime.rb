@@ -33,7 +33,7 @@ class Prime
     i = 2
 
     while count < @k
-      if s[i] == true
+      if s[i]
         count += 1
       end
       
