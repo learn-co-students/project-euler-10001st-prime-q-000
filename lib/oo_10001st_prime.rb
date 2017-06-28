@@ -1,6 +1,5 @@
 # Implement your object-oriented solution here!
 require 'prime'
-
 class Prime
 
   def initialize(num)
@@ -14,7 +13,7 @@ class Prime
       if i.prime?
         counter += 1
       end
-      i + 1 unless counter == @num
+      i += 1 unless counter == @num
     end
     return i
   end
