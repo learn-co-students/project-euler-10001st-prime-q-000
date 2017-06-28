@@ -1,4 +1,5 @@
 # Implement your procedural solution here!
+require 'prime'
 def prime_number_for(num)
   counter = 0
   i = 2
